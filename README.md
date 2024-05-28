@@ -1,7 +1,7 @@
-# network-alarm
+# Network Alarm
 An alarm written in python to detect various network attacks and vulnerabilities on a server
 
-# dependencies
+# Dependencies
 Install the following dependencies prior to compilation.
 ```
 pip install scapy
@@ -9,7 +9,7 @@ pip install argparse
 pip install base64
 ```
 
-# instructions
+# Instructions
 Run: 
 ```
 sudo python3 alarm.py
@@ -36,7 +36,7 @@ NOTE: sniffing on network interfaces requires sudo.
 
 When sniffing on a live interface, the tool must keep running. To quit it, press Control-C
 
-# summary
+# Summary
 This program can be used to monitor network traffic or read packet capture files and successfully detect any of the following events:
 	1. NULL scan
 	2. FIN scan
